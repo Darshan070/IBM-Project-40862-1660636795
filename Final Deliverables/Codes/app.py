@@ -14,7 +14,7 @@ import os
 
 
 
-db = sqlalchemy.create_engine('ibm_db_sa://dtp46044:95soX0sZGhb4ToUj@fbd88901-ebdb-4a4f-a32e-9822b9fb237b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:50000/bludb')
+db = sqlalchemy.create_engine('ibm_db_sa://#/bludb')
 bcrypt =Bcrypt(app)
 metadata = MetaData()
 
